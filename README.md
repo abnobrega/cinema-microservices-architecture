@@ -35,7 +35,7 @@ Each service runs independently on its own port.
 git clone https://github.com/abnobrega/cinema-microservices-architecture.git
 cd cinema-microservices-architecture
 
-### **********************************************************************
+---
 
 ### 2️⃣ Install Dependencies for each service:
 
@@ -51,7 +51,7 @@ npm install
 cd ../cinema-catalog-service
 npm install
 
-### **********************************************************************
+---
 
 ### 3️⃣ Start the Services
 # Open three terminals, one for each service:
@@ -68,7 +68,7 @@ npm start
 cd cinema-catalog-service
 npm start
 
-### **********************************************************************
+---
 
 ### 🌐 Default Endpoints
 ### Service	            Port	Example URL
@@ -76,7 +76,8 @@ API Gateway	            3000	http://localhost:3000/
 Movies Service	        3001	http://localhost:3001/movies
 Cinema Catalog Service	3002	http://localhost:3002/cinemas
 
-### **********************************************************************
+---
+
 ### ⚙️ Architecture Diagram
 [ Client ]
    |
@@ -89,7 +90,7 @@ Cinema Catalog Service	3002	http://localhost:3002/cinemas
 ✅ The API Gateway handles all client requests, routing them to the right microservice.
 ✅ Each microservice handles its own logic and could use its own database.
 
-### **********************************************************************
+---
 
 ### 📝 Features
 ✅ Modular architecture
@@ -98,12 +99,12 @@ Cinema Catalog Service	3002	http://localhost:3002/cinemas
 ✅ Easy to extend with new services
 ✅ Ready for containerization (Docker)
 
-### **********************************************************************
+---
 
 ### 👨‍💻 Author
 ✅ Developed by Alexandre Bonturi Nóbrega
 ✅ Independent Backend & Web3 Software Engineer
 ✅ LinkedIn: https://www.linkedin.com/in/alexandrebonturinobrega/
 
-### **********************************************************************
+---
 
