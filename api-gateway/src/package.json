@@ -1,0 +1,30 @@
+{
+  "name": "api-gateway",
+  "version": "1.0.0",
+  "description": "Provide a single endpoint to access the microsservices",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r dotenv/config ./server/index",
+    "dev": "npx nodemon -r dotenv/config ./server/index",
+    "test": "jest"
+  },
+  "author": "Alexandre Bonturi Nóbrega / Software Engineer",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv-safe": "^9.1.0",
+    "express": "^4.19.2",
+    "express-http-proxy": "^2.1.1",
+    "helmet": "^7.1.0",
+    "http": "^0.0.1-security",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.9.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
