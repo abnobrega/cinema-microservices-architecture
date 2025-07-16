@@ -88,23 +88,29 @@ Cinema Catalog Service	3002	http://localhost:3002/cinemas
 [Movies Service] [Cinema Catalog Service]
 
 ✅ The API Gateway handles all client requests, routing them to the right microservice.
+
 ✅ Each microservice handles its own logic and could use its own database.
 
 ---
 
 ### 📝 Features
 ✅ Modular architecture
+
 ✅ Clear REST API structure
+
 ✅ Demonstrates real-world microservices orchestration
+
 ✅ Easy to extend with new services
+
 ✅ Ready for containerization (Docker)
 
 ---
 
 ### 👨‍💻 Author
 ✅ Developed by Alexandre Bonturi Nóbrega
+
 ✅ Independent Backend & Web3 Software Engineer
+
 ✅ LinkedIn: https://www.linkedin.com/in/alexandrebonturinobrega/
 
----
 
