@@ -82,11 +82,10 @@ Each service runs independently on its own port.
 ---
 
 ### ⚙️ Architecture Diagram
-                                   ➔ [Movies Service]
-                                 /
-●➔ [ Client ] ➔ [ API Gateway ]                     
-                                 \
-                                   ➔ [Cinema Catalog Service]
+
+## 🗂️ HELP DESK WEB SYSTEM — System Architecture Diagram
+
+![System Deployment Diagram](docs/CINEMA-MICROSERVICES-SYSTEM-Deployment-Diagram.png)
 
 
 ✅ The API Gateway handles all client requests, routing them to the right microservice.
