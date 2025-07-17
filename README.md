@@ -95,7 +95,7 @@ Each service runs independently on its own port.
 
 ---
 
-### 📝 Features ### ### 
+### 📝 Features 
 ✅ Modular architecture
 
 ✅ Clear REST API structure
