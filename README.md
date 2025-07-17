@@ -83,14 +83,12 @@ Each service runs independently on its own port.
 
 ### ⚙️ Architecture Diagram
 
-## 🗂️ HELP DESK WEB SYSTEM — System Architecture Diagram
+- The API Gateway handles all client requests, routing them to the right microservice.
+- Each microservice handles its own logic and could use its own database.
+
+## 🗂️ CIMENA MICROSERVICES SYSTEM — Deployment Diagram
 
 ![System Deployment Diagram](docs/CINEMA-MICROSERVICES-SYSTEM-Deployment-Diagram.png)
-
-
-✅ The API Gateway handles all client requests, routing them to the right microservice.
-
-✅ Each microservice handles its own logic and could use its own database.
 
 ---
 
