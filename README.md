@@ -90,8 +90,9 @@ Each service runs independently on its own port.
    V             V
 [Movies Service] [Cinema Catalog Service]
 
-- The API Gateway handles all client requests, routing them to the right microservice.
-- Each microservice handles its own logic and could use its own database.
+✅ The API Gateway handles all client requests, routing them to the right microservice.
+
+✅ Each microservice handles its own logic and could use its own database.
 
 ---
 
