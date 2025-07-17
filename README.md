@@ -82,9 +82,13 @@ Each service runs independently on its own port.
 ---
 
 ### ⚙️ Architecture Diagram
-                                |➔ [Movies Service] 
-[ Client ] ➔ [ API Gateway ] ➔|                          
-                                |➔ [Cinema Catalog Service]
+[ Client ]
+   |
+   V
+[ API Gateway ]
+   |             |
+   V             V
+[Movies Service] [Cinema Catalog Service]
 
 ✅ The API Gateway handles all client requests, routing them to the right microservice.
 
