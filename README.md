@@ -41,19 +41,16 @@ Each service runs independently on its own port.
 ### 2️⃣ Install Dependencies for each service:
 
 # API Gateway
-● cd api-gateway
-
-● npm install
+- cd api-gateway
+- npm install
 
 # Movies Service
-● cd ../movies-service
-
-● npm install
+- cd ../movies-service
+- npm install
 
 # Cinema Catalog Service
-● cd ../cinema-catalog-service
-
-● npm install
+- cd ../cinema-catalog-service
+- npm install
 
 ---
 
@@ -61,19 +58,16 @@ Each service runs independently on its own port.
 # Open three terminals, one for each service:
 
 # Terminal 1
-● cd api-gateway
-
-● npm start
+- cd api-gateway
+- npm start
 
 # Terminal 2
-● cd movies-service
-
-● npm start
+- cd movies-service
+- npm start
 
 # Terminal 3
-● cd cinema-catalog-service
-
-● npm start
+- cd cinema-catalog-service
+- npm start
 
 ---
 
@@ -96,9 +90,8 @@ Each service runs independently on its own port.
    V             V
 [Movies Service] [Cinema Catalog Service]
 
-✅ The API Gateway handles all client requests, routing them to the right microservice.
-
-✅ Each microservice handles its own logic and could use its own database.
+- The API Gateway handles all client requests, routing them to the right microservice.
+- Each microservice handles its own logic and could use its own database.
 
 ---
 
@@ -116,10 +109,8 @@ Each service runs independently on its own port.
 ---
 
 ### 👨‍💻 Author
-●  Developed by Alexandre Bonturi Nóbrega
-
-●  Independent Backend & Web3 Software Engineer
-
-●  LinkedIn: https://www.linkedin.com/in/alexandrebonturinobrega/
+-  Developed by Alexandre Bonturi Nóbrega
+-  Independent Backend & Web3 Software Engineer
+-  LinkedIn: https://www.linkedin.com/in/alexandrebonturinobrega/
 
 
